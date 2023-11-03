@@ -1,0 +1,75 @@
+.nav-wrapper {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(128, 24, 102);
+}
+
+.input-field {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.weather-forcast {
+  padding-left: 15px;
+}
+
+.materialize-textarea {
+  border-bottom: none !important;
+}
+
+.search-list {
+  text-align: center;
+  font-size: 20px;
+}
+
+.search-btn {
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 15px;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  background-color: rgb(61, 55, 35);
+}
+
+.s5ths,
+.m5ths,
+.l5ths,
+.xl5ths {
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.row .col.s5ths {
+  width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+  .row .col.m5ths {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .row .col.l5ths {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .row .col.xl5ths {
+    width: 20%;
+  }
+}
+
+#icon {
+  position: relative;
+  top: 12px;
+}
+
+.card-title > h4 {
+  display: inline;
+}
